@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 20%;
+  background-image: url("imagens/JupiterFrio.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.NavBar h1{
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  color: white;
+  padding: 60px;
+}
+
+.Conteudo{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 20px;
+  
+  align-items: center;
+  border: 1px solid black;
+  height: auto;
+  border-radius: 10px;
+  
+  width: 80%;
+  margin: 20px auto;
+  
+}
+
+.Conteudo h2,p{
+  text-align: start;
+  word-spacing: 10px;
+  margin: 10px;
+}
+
+.ConteudoImagens{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding: 20px;
+  
+  align-items: start;
+  border: 1px solid black;
+  height: auto;
+  border-radius: 10px;
+  
+  width: 80%;
+  margin: 20px auto;
+}
+
+.ConteudoImagens a{
+  color: lightslategray;
+}
